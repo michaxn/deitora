@@ -1,0 +1,132 @@
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.common {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 10px;
+  margin: 20px 0 40px 0;
+}
+
+.header-item {
+  float: left;
+}
+
+.header-list {
+  display: flex;
+  float: right;
+}
+
+.header-list p {
+  padding: 0 10px;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.concept img {
+  width: 100%;
+  height: auto;
+}
+
+.concept {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url('img/main-vsual-nontitle.png');
+  background-size: cover;
+}
+
+.concept-item {
+  text-align: center;
+}
+
+.concept-item h1 {
+  font-size: 40px;
+  padding: 120px 0 20px 0;
+}
+
+.concept-item p {
+  padding: 20px 0 120px 0;
+  font-weight: bolder;
+}
+
+.about h2 {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.about img {
+  width: 48%;
+  height: auto;
+  float: left;
+}
+
+.about {
+  padding-bottom: 350px;
+}
+
+.about p {
+  float: right;
+}
+
+.course h2 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.course-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-item img {
+  width: 300px;
+  height: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  margin: 50px 0 30px 0;
+}
+
+.contact p {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.contact input {
+  border-color: rgba(0, 0, 0, 0.164);
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin: 0 0 30px 0;
+}
+
+.contact-btn {
+  color: #fff;
+  background-color: rgb(253, 77, 115);
+  padding: 15px 70px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.border {
+  margin-top: 100px;
+  border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.footer p {
+  float: right;
+  margin: 10px 0 20px 0;
+  font-size: 12px;
+}
